@@ -1,8 +1,8 @@
 # Template: the release workflow fills in the version and sha256 placeholders
 # and pushes the result to toddmoy/homebrew-tap.
 cask "sketchpad" do
-  version "0.1.1"
-  sha256 "f7521506fdb76d69f7527ab3e943b2329575d2e00cf62cfee99f5f09c58bc7c9"
+  version "0.1.2"
+  sha256 "1b1d6897c6bf931b20b624a653694f9bcb5502259d35bb38eb1f9f8bd5cd3df2"
 
   url "https://github.com/toddmoy/sketchpad/releases/download/v#{version}/Sketchpad.dmg"
   name "Sketchpad"
