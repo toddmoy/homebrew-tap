@@ -1,13 +1,13 @@
-# Template: the release workflow fills in 0.1.0 and 60da8baa65d075755d9ada938f60a01ae475ce29cd365a273ff88cea5e3e2742
+# Template: the release workflow fills in the version and sha256 placeholders
 # and pushes the result to toddmoy/homebrew-tap.
 cask "sketchpad" do
-  version "0.1.0"
-  sha256 "60da8baa65d075755d9ada938f60a01ae475ce29cd365a273ff88cea5e3e2742"
+  version "0.1.1"
+  sha256 "f7521506fdb76d69f7527ab3e943b2329575d2e00cf62cfee99f5f09c58bc7c9"
 
-  url "https://github.com/toddmoy/sketchpad/releases/download/v#{version}/Sketchpad-#{version}-universal.dmg"
+  url "https://github.com/toddmoy/sketchpad/releases/download/v#{version}/Sketchpad.dmg"
   name "Sketchpad"
   desc "Menu bar sketchpad for handing drawings to LLMs"
-  homepage "https://github.com/toddmoy/sketchpad"
+  homepage "https://toddmoy.com/apps/sketchpad"
 
   depends_on macos: ">= :big_sur"
 
